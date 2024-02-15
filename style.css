@@ -1,0 +1,42 @@
+:root {
+  font-size: 62.5%;
+}
+
+header {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 0.5fr 2fr 0.5fr;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainlogo {
+  width: 3.5rem;
+  height: 3.5rem;
+
+  border: none;
+  border-radius: 50%;
+  /*AJUSTAR*/
+  background: red;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  justify-self: center;
+}
+
+.input-search label {
+  display: none;
+}
+
+.input-search input {
+  width: 100%;
+}
+
+.avatar {
+  width: 3.5rem;
+  height: 3.5rem;
+  justify-self: center;
+}
