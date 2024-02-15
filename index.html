@@ -1,24 +1,33 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Blog de Gatos</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="shortcut icon" href="assets/cat-1-svgrepo-com.svg" type="image/x-icon" />
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet" />
   </head>
   <body>
     <div class="content">
-      <header>
-        <img src="assets/patinha.svg" alt="Logo do Blog" />
+      <header class="wrapper">
+        <!--<div class="paw">
+          <img src="assets/patinha.svg" alt="Logo do Blog" />
+        </div> -->
         <form>
-          <input type="search" name="pesquisa" id="pesquisa" />
+          <div class="input-wrapper">
+            <label for="username">Pesquise por artigos</label>
+            <input type="text" id="pesquisa" name="pesquisa" placeholder="Pesquise por artigos" />
+          </div>
         </form>
-        <img src="assets/avatar.png" alt="Avatar" />
+        <!--<img class="avatar" src="assets/avatar.png" alt="Avatar" /> -->
       </header>
-      <section>
+      <!--<section>
         <main>
-          <img src="assets/imgprincipal.png" alt="Imagem de um gato olhando o horizonte" />
+          <img class="main-image" src="assets/imgprincipal.png" alt="Imagem de um gato olhando o horizonte" />
           <h1>Seriam os gatos astronautas?</h1>
           <img src="assets/handup.svg" alt="like" />
           <img src="assets/handdown.svg" alt="dislike" />
@@ -67,7 +76,7 @@
       </section>
       <footer>
         <p>© 2023 - Rocketseat Explorer</p>
-      </footer>
+      </footer> -->
     </div>
   </body>
 </html>
