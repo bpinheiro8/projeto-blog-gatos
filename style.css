@@ -98,6 +98,7 @@ header {
 .img-principal {
   height: auto;
   max-width: 100%;
+  background: var(--color6);
 }
 
 main h1 {
@@ -197,7 +198,17 @@ footer p {
     gap: 1rem;
   }
 
+  .img-principal {
+    width: 100%;
+  }
+
   footer {
     margin-top: 1rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    background: red;
   }
 }
