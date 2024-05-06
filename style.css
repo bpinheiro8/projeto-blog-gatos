@@ -207,8 +207,24 @@ footer p {
   }
 }
 
-@media (min-width: 1024px) {
-  body {
-    background: red;
+@media (min-width: 1025px) {
+  section {
+    margin: 4.4rem 8.1rem 4.4rem 8.1rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 3rem;
+  }
+
+  .content {
+    margin-top: 3rem;
+    padding: 0;
+  }
+
+  .content-nav {
+    padding: 0;
+  }
+
+  .img-principal {
+    border-radius: 0.5rem;
   }
 }
